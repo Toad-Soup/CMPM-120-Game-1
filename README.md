@@ -1,6 +1,11 @@
 # CMPM-120-Game-1
 link based game for CMPM 120
 
+# Music Disclaimer
+There is music in this game, Dawn: Dawn is a feeling by the Moody Blues.
+I do not technically have the rights to use this song but this is for a school assignment and not for profit and can be removed if necessary.
+all this to say, please don't sue me I'm sorry 
+
 # StoryGraphTool
 A template by Adam Smith.
 Adapted by yours truly for the purpose of creating a linked based game.
