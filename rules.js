@@ -51,7 +51,7 @@ class Location extends Scene {
         this.engine.show(locationData.Body); 
         
         // Set toolbox flag if entering Maintenance hall
-        if (key === "Maintenance hall") {
+        if (key === "pick up") {
             toolBox = true;
         }
 
