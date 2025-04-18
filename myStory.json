@@ -128,11 +128,11 @@
             "Body": "At this point the reactor is above 800 degrees celsius.<br>Decay heat from the control rods being inserted has caused the temp to spike<br>From this angle you can see that the cooling pumps have failed.<br>You need to fix them. ",
             "Choices": [
                 {
-                    "Text": "Return to the Medbay",
+                    "Text": "Go to the Medbay",
                     "Target": "Medbay"
                 },
                 {
-                    "Text": "Run back to the Pump Room",
+                    "Text": "Run to the Pump Room",
                     "Target": "Pump Room"
                 }
 
