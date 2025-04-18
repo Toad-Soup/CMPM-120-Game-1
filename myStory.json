@@ -60,7 +60,7 @@
             ]
         },
         "Maintenance hall": {
-            "Body": "The hall is strangely empty. Aside from the alarm blaring.<br>The lights are dim, making you stumble around the room.<br>Finally you make your way towards it, your toolbox.<br>Picking it up, you’re ready to fix the reactor.",
+            "Body": "The hall is strangely empty. Aside from the alarm blaring.<br>The lights are dim, making you stumble around the room.<br>Finally you make your way towards it, your toolbox.",
             "Choices": [
                 {
                     "Text": "Return to the Radio Room",
