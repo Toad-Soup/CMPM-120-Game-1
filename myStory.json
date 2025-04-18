@@ -1,0 +1,158 @@
+{
+    "Title": "K-292",
+    "Credits": "Created by Torrey Spear (tbspear@ucsc.edu).",
+    "InitialLocation": "Control Room",
+    "Locations": {
+        "Control Room": {
+            "Body": "It's warm in the Control Room of the Hotel class Nuclear Submarine you find yourself in.<br>The gentle hum of electronics, and dim flashing lights are the only thing keeping you from dozing off.<br>The man next you turn the page of his book.<br>Suddenly, a blaring noise jolts you to attention:<br><br><strong>Внимание, Уважаемые товарищи<br>в подводная лодка складывается неблагоприятная радиационная обстановка</strong><br><br>Something is not right.<br>The lights have gone out.<br>The system has initiated SCRAM.<br>The reactor has begun to melt down.",
+            "Choices": [
+                {
+                    "Text": "Run to the radio room",
+                    "Target": "Radio Room"
+                },
+                {
+                    "Text": "Run to the auxiliary control room",
+                    "Target": "Aux Control Room"
+                }
+            ]
+        },
+        "control Room2": {
+            "Body": "The control room is filled with the sounds of alarms, and desperate yelling.<br>Your seat has been taken by another worker, preoccupied with shutting off the alarms and lights.<br>You need to keep going ",
+            "Choices": [
+                {
+                    "Text": "Run to the radio room",
+                    "Target": "Radio Room"
+                },
+                {
+                    "Text": "Run to the auxiliary control room",
+                    "Target": "Aux Control Room"
+                }
+            ]
+        },
+        "Radio Room": {
+            "Body": "Frantic calls are being made.<br>Workers running in and out of the room,<br>Everyones trying to figure out what's going on.<br>“Comrade!” someone yells, you turn.<br>“You need to get to the reactor! Somethings wrong! And do NOT forget your tools!”",
+            "Choices": [
+                {
+                    "Text": "Check the maintenance hall",
+                    "Target": "Maintenance hall"
+                },
+                {
+                    "Text": "Enter the pump room",
+                    "Target": "Pump Room"
+                },
+                {
+                    "Text": "Return to the control room",
+                    "Target": "control Room2"
+                }
+            ]
+        },
+        "Aux Control Room": {
+            "Body": "Men are scrambling, pressing buttons, reading notes, yelling fills the room.<br>The machines of the backup control room are beeping loudly, lights flashing, warning of the impending danger.<br>“Comrade!”You hear over the noise.<br>“What are you doing here?” they ask.<br>“You need to get to the Reactor NOW!”",
+            "Choices": [
+                {
+                    "Text": "Continue to the Medbay",
+                    "Target": "Medbay"
+                },
+                {
+                    "Text": "Return to the control room",
+                    "Target": "control Room2"
+                }
+            ]
+        },
+        "Maintenance hall": {
+            "Body": "The hall is strangely empty. Aside from the alarm blaring.<br>The lights are dim, making you stumble around the room.<br>Finally you make your way towards it, your toolbox.<br>Picking it up, you’re ready to fix the reactor.",
+            "Choices": [
+                {
+                    "Text": "Return to the Radio Room",
+                    "Target": "Radio Room"
+                },
+                {
+                    "Text": "Pick up the toolbox",
+                    "Target": "pick up"
+                }
+            ]
+        },
+        "pick up":{
+            "Body": "You hastily grab the toolbox, ready to complete your mission",
+            "Choices": [
+                {
+                    "Text": "Return to the Radio Room",
+                    "Target": "Radio Room"
+                }
+            ]
+        },
+        "Pump Room": {
+            "Body": "The sound coming from the pumps is deafening.<br>Creaking and groaning as the pressure builds from the heat of the reactor.<br>Some have already burst, sending irradiated steam from their fissures.<br>That's not a good sign.",
+            "Choices": [
+                {
+                    "Text": "Return to the Radio Room",
+                    "Target": "Radio Room"
+                },
+                {
+                    "Text": "Continue to the reactor hall",
+                    "Target": "Reactor Hall"
+                }
+            ]
+        },
+        "Medbay": {
+            "Body": "Beds which are normally empty now have men, hands and faces from minor burns<br>If you had to guess, these men were near the reactor and the pumps when SCRAM was initiated and the pumps were damaged. Scalded by hot steam.<br>You need to continue.",
+            "Choices": [
+                {
+                    "Text": "Return to Auxiliary control room",
+                    "Target": "Aux Control Room"
+                },
+                {
+                    "Text": "Go upstairs to the storage hold",
+                    "Target": "Storage"
+                },
+                {
+                    "Text": "Continue to the Reactor Hall",
+                    "Target": "Reactor Hall"
+                }
+            ]
+        },
+        "Storage": {
+            "Body": "The storage hall is relatively quite. Its not a very important place to be.<br>Stumbling around the large room your hand hits something.<br>It's a large box, a radio perhaps, maybe it's got a signal.",
+            "Choices": [
+                {
+                    "Text": "Return to the Medbay",
+                    "Target": "Medbay"
+                },
+                {
+                    "Text": "Turn on the radio",
+                    "Target": "radio"
+                }
+            ]
+        },
+        "Reactor Hall": {
+            "Body": "At this point the reactor is above 800 degrees celsius.<br>Decay heat from the control rods being inserted has caused the temp to spike<br>From this angle you can see that the cooling pumps have failed.<br>You need to fix them. ",
+            "Choices": [
+                {
+                    "Text": "Return to the Medbay",
+                    "Target": "Medbay"
+                },
+                {
+                    "Text": "Run back to the Pump Room",
+                    "Target": "Pump Room"
+                }
+
+            ]
+        },
+        "radio": {
+            "Body": "Moving though the darkness, you stumble into a large desk, examining it,<br>your hands find the dials on the old Ham Radio.<br>You aren't quite sure who brought it on board, let alone if it even works.<br>But as your hands fiddle with the various dials and buttons, <br>the gentle hum of static fills the air around you.<br>Slowly, the sound of a symphony fades in<br>Lyrics accompanying it later… it’s hauntingly beautiful.",
+            "Choices": [
+                {
+                    "Text": "Return to the Medbay",
+                    "Target": "Medbay"
+                },
+                {
+                    "Text": "Turn off the radio",
+                    "Target": "Storage"
+                }
+            ]
+        },
+        "tools": {
+            "Body": "You pull out the rusty old toolbox, hands running over the pieces of metal that could save you, or end you.<br<Your eyes meet an old air vent, running directly to the reactor. A group of other engineers, already pulling out tools of their own, spot it as well. <br>An idea forms, water needs to be running to the reactor, cooling the core, preventing further damage. <br>A water pipe near it would supply the necessary coolant. Gathering yourselves.<br><br>After many hours, the two pipes have been welded. The core is being cooled, preventing further damage to the core and to the vessel as a whole."
+        }
+    }
+}
